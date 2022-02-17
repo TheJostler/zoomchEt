@@ -14,7 +14,7 @@ int usage(char *basename) {
 int main (int argc, char **argv) {
 	if (argc >= 2) {
 		
-		FILE *PIDfh = popen("ps -as | grep zoom/zoom/zoom | grep -v grep | cut -d ' ' -f 5", "r");
+		FILE *PIDfh = popen("pidof zoom", "r");
 		char PID[12];
 	
 		if (fgets(PID, sizeof(PID), PIDfh) == NULL) {
