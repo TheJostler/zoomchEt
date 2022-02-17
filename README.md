@@ -10,6 +10,6 @@ After the meeting was over I threw together this quick and dirty script in C so 
 I recommend setting up a keyboard shortcut that will run the script in the background on command.
 
 I'm using 
-  alt + s for "zoomchEt sleep"
-  alt + w for "zoomchEt wake"
-  alt + b for "zoomchEt bye"
+  ```alt + s for "zoomchEt sleep"```
+  ```alt + w for "zoomchEt wake"```
+  ```alt + b for "zoomchEt bye"```
